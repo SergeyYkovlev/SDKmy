@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SDKmyy",
+    name: "SDKmy",
     platforms: [
         .iOS(.v10),
         .macOS(.v10_15),
@@ -11,22 +11,22 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "SDKmyy",
-            targets: ["SDKmyy"]),
+            name: "SDKmy",
+            targets: ["SDKmy"]),
     ],
     dependencies: [
         // Здесь можно указать зависимости, если они есть
     ],
     targets: [
         .target(
-            name: "SDKmyy",
+            name: "SDKmy",
             dependencies: [],
-            path: "Sources/SDKmyy"
+            path: "Sources/SDKmy"
         ),
         .testTarget(
             name: "MySDKOneTests",
-            dependencies: ["SDKmyy"],
-            path: "Tests/SDKmyyTests"
+            dependencies: ["SDKmy"],
+            path: "Tests/SDKmyTests"
         ),
     ]
 )

@@ -7,9 +7,9 @@
 
 import Foundation
 
-public class MySDK {
+public class SDKmy {
 
-    public static let shared = MySDK()
+    public static let shared = SDKmy()
 
     private init() {
         // Регистрация URLProtocol при инициализации SDK

@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3323EA9C2C25751B0028A19E /* SDKmyy.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3323EA9B2C25751B0028A19E /* SDKmyy.docc */; };
-		3323EAA22C25751C0028A19E /* SDKmyy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3323EA972C25751B0028A19E /* SDKmyy.framework */; };
-		3323EAA72C25751C0028A19E /* SDKmyyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323EAA62C25751C0028A19E /* SDKmyyTests.swift */; };
-		3323EAA82C25751C0028A19E /* SDKmyy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3323EA9A2C25751B0028A19E /* SDKmyy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3323EA9C2C25751B0028A19E /* SDKmy.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3323EA9B2C25751B0028A19E /* SDKmy.docc */; };
+		3323EAA22C25751C0028A19E /* SDKmy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3323EA972C25751B0028A19E /* SDKmy.framework */; };
+		3323EAA72C25751C0028A19E /* SDKmyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3323EAA62C25751C0028A19E /* SDKmyTests.swift */; };
+		3323EAA82C25751C0028A19E /* SDKmy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3323EA9A2C25751B0028A19E /* SDKmy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +24,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3323EA972C25751B0028A19E /* SDKmyy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKmyy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3323EA9A2C25751B0028A19E /* SDKmyy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKmyy.h; sourceTree = "<group>"; };
-		3323EA9B2C25751B0028A19E /* SDKmyy.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKmyy.docc; sourceTree = "<group>"; };
-		3323EAA12C25751C0028A19E /* SDKmyyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKmyyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3323EAA62C25751C0028A19E /* SDKmyyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKmyyTests.swift; sourceTree = "<group>"; };
+		3323EA972C25751B0028A19E /* SDKmy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SDKmy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3323EA9A2C25751B0028A19E /* SDKmy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKmy.h; sourceTree = "<group>"; };
+		3323EA9B2C25751B0028A19E /* SDKmy.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKmy.docc; sourceTree = "<group>"; };
+		3323EAA12C25751C0028A19E /* SDKmyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKmyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3323EAA62C25751C0028A19E /* SDKmyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKmyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3323EAA22C25751C0028A19E /* SDKmyy.framework in Frameworks */,
+				3323EAA22C25751C0028A19E /* SDKmy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 		3323EA8D2C25751B0028A19E = {
 			isa = PBXGroup;
 			children = (
-				3323EA992C25751B0028A19E /* SDKmyy */,
+				3323EA992C25751B0028A19E /* SDKmy */,
 				3323EAA52C25751C0028A19E /* SDKmyyTests */,
 				3323EA982C25751B0028A19E /* Products */,
 			);
@@ -62,25 +62,25 @@
 		3323EA982C25751B0028A19E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3323EA972C25751B0028A19E /* SDKmyy.framework */,
-				3323EAA12C25751C0028A19E /* SDKmyyTests.xctest */,
+				3323EA972C25751B0028A19E /* SDKmy.framework */,
+				3323EAA12C25751C0028A19E /* SDKmyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3323EA992C25751B0028A19E /* SDKmyy */ = {
+		3323EA992C25751B0028A19E /* SDKmy */ = {
 			isa = PBXGroup;
 			children = (
-				3323EA9A2C25751B0028A19E /* SDKmyy.h */,
-				3323EA9B2C25751B0028A19E /* SDKmyy.docc */,
+				3323EA9A2C25751B0028A19E /* SDKmy.h */,
+				3323EA9B2C25751B0028A19E /* SDKmy.docc */,
 			);
-			path = SDKmyy;
+			path = SDKmy;
 			sourceTree = "<group>";
 		};
 		3323EAA52C25751C0028A19E /* SDKmyyTests */ = {
 			isa = PBXGroup;
 			children = (
-				3323EAA62C25751C0028A19E /* SDKmyyTests.swift */,
+				3323EAA62C25751C0028A19E /* SDKmyTests.swift */,
 			);
 			path = SDKmyyTests;
 			sourceTree = "<group>";
@@ -92,16 +92,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3323EAA82C25751C0028A19E /* SDKmyy.h in Headers */,
+				3323EAA82C25751C0028A19E /* SDKmy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3323EA962C25751B0028A19E /* SDKmyy */ = {
+		3323EA962C25751B0028A19E /* SDKmy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3323EAAB2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmyy" */;
+			buildConfigurationList = 3323EAAB2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmy" */;
 			buildPhases = (
 				3323EA922C25751B0028A19E /* Headers */,
 				3323EA932C25751B0028A19E /* Sources */,
@@ -112,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = SDKmyy;
+			name = SDKmy;
 			productName = SDKmyy;
-			productReference = 3323EA972C25751B0028A19E /* SDKmyy.framework */;
+			productReference = 3323EA972C25751B0028A19E /* SDKmy.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3323EAA02C25751C0028A19E /* SDKmyyTests */ = {
+		3323EAA02C25751C0028A19E /* SDKmyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3323EAAE2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmyyTests" */;
+			buildConfigurationList = 3323EAAE2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmyTests" */;
 			buildPhases = (
 				3323EA9D2C25751C0028A19E /* Sources */,
 				3323EA9E2C25751C0028A19E /* Frameworks */,
@@ -130,9 +130,9 @@
 			dependencies = (
 				3323EAA42C25751C0028A19E /* PBXTargetDependency */,
 			);
-			name = SDKmyyTests;
+			name = SDKmyTests;
 			productName = SDKmyyTests;
-			productReference = 3323EAA12C25751C0028A19E /* SDKmyyTests.xctest */;
+			productReference = 3323EAA12C25751C0028A19E /* SDKmyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3323EA912C25751B0028A19E /* Build configuration list for PBXProject "SDKmyy" */;
+			buildConfigurationList = 3323EA912C25751B0028A19E /* Build configuration list for PBXProject "SDKmy" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3323EA962C25751B0028A19E /* SDKmyy */,
-				3323EAA02C25751C0028A19E /* SDKmyyTests */,
+				3323EA962C25751B0028A19E /* SDKmy */,
+				3323EAA02C25751C0028A19E /* SDKmyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,7 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3323EA9C2C25751B0028A19E /* SDKmyy.docc in Sources */,
+				3323EA9C2C25751B0028A19E /* SDKmy.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3323EAA72C25751C0028A19E /* SDKmyyTests.swift in Sources */,
+				3323EAA72C25751C0028A19E /* SDKmyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +211,7 @@
 /* Begin PBXTargetDependency section */
 		3323EAA42C25751C0028A19E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3323EA962C25751B0028A19E /* SDKmyy */;
+			target = 3323EA962C25751B0028A19E /* SDKmy */;
 			targetProxy = 3323EAA32C25751C0028A19E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -439,7 +439,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3323EA912C25751B0028A19E /* Build configuration list for PBXProject "SDKmyy" */ = {
+		3323EA912C25751B0028A19E /* Build configuration list for PBXProject "SDKmy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3323EAA92C25751C0028A19E /* Debug */,
@@ -448,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3323EAAB2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmyy" */ = {
+		3323EAAB2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3323EAAC2C25751C0028A19E /* Debug */,
@@ -457,7 +457,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3323EAAE2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmyyTests" */ = {
+		3323EAAE2C25751C0028A19E /* Build configuration list for PBXNativeTarget "SDKmyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3323EAAF2C25751C0028A19E /* Debug */,
