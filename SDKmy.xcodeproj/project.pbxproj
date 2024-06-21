@@ -29,6 +29,9 @@
 		3323EA9B2C25751B0028A19E /* SDKmy.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SDKmy.docc; sourceTree = "<group>"; };
 		3323EAA12C25751C0028A19E /* SDKmyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKmyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3323EAA62C25751C0028A19E /* SDKmyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKmyTests.swift; sourceTree = "<group>"; };
+		3323EABB2C257A750028A19E /* sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sdk.h; sourceTree = "<group>"; };
+		3323EABC2C257A750028A19E /* sdk.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = sdk.docc; sourceTree = "<group>"; };
+		3323EAC72C257A750028A19E /* sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sdkTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				3323EA992C25751B0028A19E /* SDKmy */,
-				3323EAA52C25751C0028A19E /* SDKmyyTests */,
+				3323EAA52C25751C0028A19E /* SDKmyTests */,
+				3323EABA2C257A750028A19E /* sdk */,
+				3323EAC62C257A750028A19E /* sdkTests */,
 				3323EA982C25751B0028A19E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -77,12 +82,29 @@
 			path = SDKmy;
 			sourceTree = "<group>";
 		};
-		3323EAA52C25751C0028A19E /* SDKmyyTests */ = {
+		3323EAA52C25751C0028A19E /* SDKmyTests */ = {
 			isa = PBXGroup;
 			children = (
 				3323EAA62C25751C0028A19E /* SDKmyTests.swift */,
 			);
-			path = SDKmyyTests;
+			path = SDKmyTests;
+			sourceTree = "<group>";
+		};
+		3323EABA2C257A750028A19E /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				3323EABB2C257A750028A19E /* sdk.h */,
+				3323EABC2C257A750028A19E /* sdk.docc */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		3323EAC62C257A750028A19E /* sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				3323EAC72C257A750028A19E /* sdkTests.swift */,
+			);
+			path = sdkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +367,7 @@
 		3323EAAC2C25751C0028A19E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -376,6 +399,7 @@
 		3323EAAD2C25751C0028A19E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
